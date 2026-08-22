@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "dataTypes": {
+    "official": "Directly obtained from an authoritative dataset (EIA, PPAC, ISPRL, IEA, OPEC)",
+    "derived": "Calculated from official inputs using a transparent, documented methodology",
+    "simulated": "Hypothetical what-if scenario or prototype value not sourced from official data"
+  },
+  "riskLevels": {
+    "LOW": "0-24",
+    "MODERATE": "25-49",
+    "HIGH": "50-74",
+    "CRITICAL": "75-100"
+  },
+  "riskScoreFormula": {
+    "modelVersion": "v1",
+    "formula": "riskScore = geopoliticalComponent * 0.30 + chokepointExposure * 0.30 + supplierConcentration * 0.20 + logisticsComponent * 0.20",
+    "components": {
+      "geopoliticalComponent": "Regional instability and conflict exposure, normalized 0-100",
+      "chokepointExposure": "Percentage of India crude flowing through the route, scaled to 0-100",
+      "supplierConcentration": "HHI-style concentration measure of supplier import shares, scaled to 0-100",
+      "logisticsComponent": "Transit time and disruption probability, normalized 0-100"
+    },
+    "normalization": "All components normalized to 0-100. Final score capped at 0-99."
+  },
+  "supplierScoreFormula": {
+    "modelVersion": "v1",
+    "weights": {
+      "risk": 0.30,
+      "cost": 0.20,
+      "capacity": 0.20,
+      "transit": 0.15,
+      "reliability": 0.15
+    },
+    "normalization": "Each factor normalized to 0-100 (higher = better). Lower cost and transit increase score; higher capacity and reliability increase score."
+  },
+  "fields": {
+    "oilFlowMbd": {
+      "unit": "million_barrels_per_day",
+      "description": "Oil transit flow through a chokepoint",
+      "allowedTypes": ["official", "derived"]
+    },
+    "importQuantityMt": {
+      "unit": "million_tonnes",
+      "description": "Crude oil import quantity",
+      "allowedTypes": ["official"]
+    },
+    "price": {
+      "unit": "USD_per_barrel",
+      "description": "Crude oil price per barrel",
+      "allowedTypes": ["official", "derived"]
+    },
+    "riskScore": {
+      "unit": "0-100",
+      "description": "Composite risk score",
+      "allowedTypes": ["derived", "simulated"]
+    }
+  }
+}

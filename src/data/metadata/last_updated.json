@@ -1,0 +1,62 @@
+{
+  "lastUpdated": "2026-08-21T00:00:00Z",
+  "datasets": {
+    "chokepoints": {
+      "sourceUpdated": "2024-07",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "EIA"
+    },
+    "india_oil_imports": {
+      "sourceUpdated": "2024-05",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "PPAC"
+    },
+    "india_crude_production": {
+      "sourceUpdated": "2024-05",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "PPAC"
+    },
+    "indian_basket_prices": {
+      "sourceUpdated": "2026-08",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "PPAC"
+    },
+    "global_oil_prices": {
+      "sourceUpdated": "2026-08",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "EIA"
+    },
+    "suppliers": {
+      "sourceUpdated": "2024-05",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "PPAC"
+    },
+    "routes": {
+      "sourceUpdated": "2024-07",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "EIA"
+    },
+    "reserves": {
+      "sourceUpdated": "2024",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "ISPRL"
+    },
+    "energy_events": {
+      "sourceUpdated": "2024-07",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "EIA, IEA, PPAC, OPEC"
+    },
+    "scenarios": {
+      "sourceUpdated": "2026-08-21",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "EnergyShield AI"
+    },
+    "refinery_capacity": {
+      "sourceUpdated": "2024-05",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "source": "PPAC"
+    }
+  },
+  "usingFallback": false,
+  "notes": "All datasets retrieved on 2026-08-21. Official source publication dates vary."
+}

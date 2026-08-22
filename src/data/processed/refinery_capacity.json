@@ -1,0 +1,45 @@
+[
+  {
+    "id": "ref-jamnagar",
+    "refinery": "Jamnagar Refinery",
+    "operator": "Reliance Industries",
+    "location": "Gujarat",
+    "capacityMtpa": 62.0,
+    "unit": "million_tonnes_per_annum",
+    "operationalStatus": "Operational",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/refinery",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-05",
+    "dataType": "official",
+    "notes": "World's largest single-location refinery complex."
+  },
+  {
+    "id": "ref-kochi",
+    "refinery": "Kochi Refinery",
+    "operator": "BPCL",
+    "location": "Kerala",
+    "capacityMtpa": 15.5,
+    "unit": "million_tonnes_per_annum",
+    "operationalStatus": "Operational",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/refinery",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-05",
+    "dataType": "official"
+  },
+  {
+    "id": "ref-panipat",
+    "refinery": "Panipat Refinery",
+    "operator": "IOCL",
+    "location": "Haryana",
+    "capacityMtpa": 15.0,
+    "unit": "million_tonnes_per_annum",
+    "operationalStatus": "Operational",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/refinery",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-05",
+    "dataType": "official"
+  }
+]

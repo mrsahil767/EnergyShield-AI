@@ -1,0 +1,6 @@
+[
+  { "id": "sup-sa", "country": "Saudi Arabia", "riskScore": 14, "costIndex": 78, "capacityKbd": 450, "transitDays": 12, "reliability": 92, "recommendation": "Primary alternative", "dataType": "simulated" },
+  { "id": "sup-uae", "country": "UAE", "riskScore": 16, "costIndex": 79, "capacityKbd": 320, "transitDays": 11, "reliability": 88, "recommendation": "High confidence", "dataType": "simulated" },
+  { "id": "sup-irq", "country": "Iraq", "riskScore": 40, "costIndex": 76, "capacityKbd": 280, "transitDays": 14, "reliability": 74, "recommendation": "Diversify exposure", "dataType": "simulated" },
+  { "id": "sup-ng", "country": "Nigeria", "riskScore": 70, "costIndex": 83, "capacityKbd": 150, "transitDays": 22, "reliability": 66, "recommendation": "Emergency reserve", "dataType": "simulated" }
+]

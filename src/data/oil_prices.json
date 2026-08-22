@@ -1,0 +1,9 @@
+[
+  { "date": "2026-08-14", "benchmark": "Brent", "price": 82.10, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-15", "benchmark": "Brent", "price": 83.40, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-16", "benchmark": "Brent", "price": 84.20, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-17", "benchmark": "Brent", "price": 85.60, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-18", "benchmark": "Brent", "price": 87.30, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-19", "benchmark": "Brent", "price": 88.50, "currency": "USD", "dataType": "simulated" },
+  { "date": "2026-08-20", "benchmark": "Brent", "price": 89.40, "currency": "USD", "dataType": "simulated" }
+]

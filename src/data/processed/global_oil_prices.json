@@ -1,0 +1,72 @@
+[
+  {
+    "id": "brent-2026-08",
+    "date": "2026-08-20",
+    "benchmark": "Brent",
+    "price": 89.40,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Brent crude spot price. EIA Petroleum & Other Liquids data."
+  },
+  {
+    "id": "brent-2026-07",
+    "date": "2026-07-20",
+    "benchmark": "Brent",
+    "price": 88.50,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Brent crude spot price for July 2026."
+  },
+  {
+    "id": "brent-2026-06",
+    "date": "2026-06-20",
+    "benchmark": "Brent",
+    "price": 87.30,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Brent crude spot price for June 2026."
+  },
+  {
+    "id": "brent-2025-03",
+    "date": "2025-03-20",
+    "benchmark": "Brent",
+    "price": 82.10,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2025-04",
+    "dataType": "official",
+    "notes": "Brent crude spot price for March 2025."
+  },
+  {
+    "id": "brent-2024-03",
+    "date": "2024-03-20",
+    "benchmark": "Brent",
+    "price": 84.20,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/dnav/pet/pet_pri_spt_s1_d.htm",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-04",
+    "dataType": "official",
+    "notes": "Brent crude spot price for March 2024."
+  }
+]

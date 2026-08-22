@@ -1,0 +1,7 @@
+[
+  { "id": "rt-hormuz", "name": "Strait of Hormuz", "riskScore": 87, "disruptionProbability": 78, "transitDays": 12, "status": "CRITICAL", "dataType": "simulated" },
+  { "id": "rt-redsea", "name": "Red Sea", "riskScore": 65, "disruptionProbability": 55, "transitDays": 18, "status": "HIGH", "dataType": "simulated" },
+  { "id": "rt-aransea", "name": "Arabian Sea", "riskScore": 35, "disruptionProbability": 22, "transitDays": 10, "status": "MEDIUM", "dataType": "simulated" },
+  { "id": "rt-persian", "name": "Persian Gulf", "riskScore": 45, "disruptionProbability": 31, "transitDays": 14, "status": "MEDIUM", "dataType": "simulated" },
+  { "id": "rt-cape", "name": "Cape of Good Hope", "riskScore": 28, "disruptionProbability": 15, "transitDays": 26, "status": "LOW", "dataType": "simulated" }
+]
