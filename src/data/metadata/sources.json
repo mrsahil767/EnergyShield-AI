@@ -1,0 +1,56 @@
+[
+  {
+    "id": "eia",
+    "name": "U.S. Energy Information Administration",
+    "shortName": "EIA",
+    "country": "United States",
+    "url": "https://www.eia.gov/",
+    "datasets": ["chokepoints", "global_oil_prices", "routes"],
+    "description": "Official U.S. government energy statistics agency. Source for global oil transit chokepoint flow data and Brent crude spot prices."
+  },
+  {
+    "id": "ppac",
+    "name": "Petroleum Planning & Analysis Cell",
+    "shortName": "PPAC",
+    "country": "India",
+    "url": "https://ppac.gov.in/",
+    "datasets": ["india_oil_imports", "india_crude_production", "indian_basket_prices", "refinery_capacity"],
+    "description": "Indian government petroleum analysis body under the Ministry of Petroleum and Natural Gas. Source for India import/export, production, pricing, and refinery data."
+  },
+  {
+    "id": "isprl",
+    "name": "Indian Strategic Petroleum Reserves Ltd",
+    "shortName": "ISPRL",
+    "country": "India",
+    "url": "https://www.isprlindia.com/",
+    "datasets": ["reserves"],
+    "description": "Government-owned company managing India's strategic petroleum reserves. Capacity data is public; current inventory is not officially published."
+  },
+  {
+    "id": "iea",
+    "name": "International Energy Agency",
+    "shortName": "IEA",
+    "country": "International",
+    "url": "https://www.iea.org/",
+    "datasets": ["energy_events"],
+    "description": "Intergovernmental energy policy and analysis organization. Source for global oil market analysis and supply security context."
+  },
+  {
+    "id": "opec",
+    "name": "Organization of the Petroleum Exporting Countries",
+    "shortName": "OPEC",
+    "country": "International",
+    "url": "https://www.opec.org/",
+    "datasets": ["energy_events"],
+    "description": "Intergovernmental oil producer organization. Source for production and demand outlook publications."
+  },
+  {
+    "id": "ogd",
+    "name": "India Open Government Data",
+    "shortName": "data.gov.in",
+    "country": "India",
+    "url": "https://data.gov.in/",
+    "datasets": [],
+    "description": "Indian open data portal for government datasets. Alternative source for petroleum statistics."
+  }
+]

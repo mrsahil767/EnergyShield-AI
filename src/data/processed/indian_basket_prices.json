@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ibp-2026-08",
+    "date": "2026-08-20",
+    "financialYear": "2026-27",
+    "price": 89.40,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/contents/price-international",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Indian Basket crude price (IOC, ONGC, BPCL composite). Most recent available."
+  },
+  {
+    "id": "ibp-2026-07",
+    "date": "2026-07-20",
+    "financialYear": "2026-27",
+    "price": 88.50,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/contents/price-international",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Indian Basket crude price for July 2026."
+  },
+  {
+    "id": "ibp-2026-06",
+    "date": "2026-06-20",
+    "financialYear": "2026-27",
+    "price": 87.30,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/contents/price-international",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2026-08-21",
+    "dataType": "official",
+    "notes": "Indian Basket crude price for June 2026."
+  },
+  {
+    "id": "ibp-2025-03",
+    "date": "2025-03-20",
+    "financialYear": "2024-25",
+    "price": 82.10,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/contents/price-international",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2025-04",
+    "dataType": "official",
+    "notes": "Indian Basket crude price for March 2025."
+  },
+  {
+    "id": "ibp-2024-03",
+    "date": "2024-03-20",
+    "financialYear": "2023-24",
+    "price": 84.20,
+    "currency": "USD",
+    "unit": "USD_per_barrel",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/contents/price-international",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-04",
+    "dataType": "official",
+    "notes": "Indian Basket crude price for March 2024."
+  }
+]

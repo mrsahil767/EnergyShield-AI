@@ -1,0 +1,7 @@
+{
+  "currentCoverageDays": 9.5,
+  "criticalThresholdDays": 5.0,
+  "dailyConsumptionKbd": 5050,
+  "policy": "Moderate drawdown",
+  "dataType": "simulated"
+}

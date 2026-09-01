@@ -1,0 +1,58 @@
+[
+  {
+    "id": "scn-hormuz",
+    "name": "Strait of Hormuz Closure",
+    "baseGap": 30,
+    "basePrice": 15,
+    "baseRisk": 78,
+    "chokepointId": "cp-hormuz",
+    "chokepointFlowMbd": 20.9,
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/international/analysis/regions-topics/world-oil-transit-chokepoints",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "dataType": "simulated",
+    "notes": "Baseline flow from EIA official data. Supply gap, price impact, and risk are simulated scenario parameters."
+  },
+  {
+    "id": "scn-redsea",
+    "name": "Red Sea Suspension",
+    "baseGap": 18,
+    "basePrice": 10,
+    "baseRisk": 61,
+    "chokepointId": "cp-babmandeb",
+    "chokepointFlowMbd": 7.5,
+    "sourceOrganization": "U.S. Energy Information Administration",
+    "sourceUrl": "https://www.eia.gov/international/analysis/regions-topics/world-oil-transit-chokepoints",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "dataType": "simulated",
+    "notes": "Baseline flow from EIA official data. Scenario outputs are simulated."
+  },
+  {
+    "id": "scn-sanction",
+    "name": "Major Supplier Sanction",
+    "baseGap": 23,
+    "basePrice": 13,
+    "baseRisk": 68,
+    "chokepointId": null,
+    "chokepointFlowMbd": null,
+    "sourceOrganization": "EnergyShield AI",
+    "sourceUrl": null,
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "dataType": "simulated",
+    "notes": "Hypothetical sanction scenario. No official source for the scenario itself."
+  },
+  {
+    "id": "scn-port",
+    "name": "Port Disruption",
+    "baseGap": 12,
+    "basePrice": 7,
+    "baseRisk": 49,
+    "chokepointId": null,
+    "chokepointFlowMbd": null,
+    "sourceOrganization": "EnergyShield AI",
+    "sourceUrl": null,
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "dataType": "simulated",
+    "notes": "Hypothetical port disruption scenario. No official source for the scenario itself."
+  }
+]

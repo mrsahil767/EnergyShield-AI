@@ -1,0 +1,28 @@
+[
+  {
+    "id": "prod-fy24",
+    "financialYear": "2023-24",
+    "period": "FY 2023-24",
+    "productionMt": 29.4,
+    "unit": "million_tonnes",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/production",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2024-05",
+    "dataType": "official",
+    "notes": "Total domestic crude oil production by India for FY 2023-24."
+  },
+  {
+    "id": "prod-fy23",
+    "financialYear": "2022-23",
+    "period": "FY 2022-23",
+    "productionMt": 29.2,
+    "unit": "million_tonnes",
+    "sourceOrganization": "Petroleum Planning & Analysis Cell",
+    "sourceUrl": "https://ppac.gov.in/production",
+    "retrievedAt": "2026-08-21T00:00:00Z",
+    "publicationDate": "2023-05",
+    "dataType": "official",
+    "notes": "Total domestic crude oil production by India for FY 2022-23."
+  }
+]

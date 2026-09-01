@@ -1,0 +1,55 @@
+{
+  "currentCoverageDays": 9.5,
+  "currentCoverageDataType": "derived",
+  "currentCoverageMethodology": "Derived from ISPRL capacity and India daily consumption estimate. Not an officially reported inventory figure. modelVersion: v1",
+  "criticalThresholdDays": 5.0,
+  "criticalThresholdDataType": "derived",
+  "criticalThresholdMethodology": "Derived from operational reserve policy threshold. modelVersion: v1",
+  "dailyConsumptionKbd": 5050,
+  "dailyConsumptionDataType": "derived",
+  "dailyConsumptionMethodology": "Derived from PPAC annual import and production figures converted to daily barrels. modelVersion: v1",
+  "policy": "Moderate drawdown",
+  "facilities": [
+    {
+      "facility": "Visakhapatnam",
+      "location": "Andhra Pradesh",
+      "capacityMt": 1.33,
+      "currentInventoryMt": null,
+      "unit": "million_tonnes",
+      "sourceOrganization": "Indian Strategic Petroleum Reserves Ltd",
+      "sourceUrl": "https://www.isprlindia.com/",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "dataType": "official",
+      "notes": "ISPRL Phase 1. Capacity is public; current inventory is not officially published."
+    },
+    {
+      "facility": "Mangalore",
+      "location": "Karnataka",
+      "capacityMt": 1.50,
+      "currentInventoryMt": null,
+      "unit": "million_tonnes",
+      "sourceOrganization": "Indian Strategic Petroleum Reserves Ltd",
+      "sourceUrl": "https://www.isprlindia.com/",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "dataType": "official",
+      "notes": "ISPRL Phase 1. Capacity is public; current inventory is not officially published."
+    },
+    {
+      "facility": "Padur",
+      "location": "Karnataka",
+      "capacityMt": 2.50,
+      "currentInventoryMt": null,
+      "unit": "million_tonnes",
+      "sourceOrganization": "Indian Strategic Petroleum Reserves Ltd",
+      "sourceUrl": "https://www.isprlindia.com/",
+      "retrievedAt": "2026-08-21T00:00:00Z",
+      "dataType": "official",
+      "notes": "ISPRL Phase 1. Capacity is public; current inventory is not officially published."
+    }
+  ],
+  "totalCapacityMt": 5.33,
+  "sourceOrganization": "Indian Strategic Petroleum Reserves Ltd",
+  "sourceUrl": "https://www.isprlindia.com/",
+  "retrievedAt": "2026-08-21T00:00:00Z",
+  "dataType": "official"
+}

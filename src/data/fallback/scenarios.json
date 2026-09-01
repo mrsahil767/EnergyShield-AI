@@ -1,0 +1,6 @@
+[
+  { "id": "scn-hormuz", "name": "Strait of Hormuz Closure", "baseGap": 30, "basePrice": 15, "baseRisk": 78, "dataType": "simulated" },
+  { "id": "scn-redsea", "name": "Red Sea Suspension", "baseGap": 18, "basePrice": 10, "baseRisk": 61, "dataType": "simulated" },
+  { "id": "scn-sanction", "name": "Major Supplier Sanction", "baseGap": 23, "basePrice": 13, "baseRisk": 68, "dataType": "simulated" },
+  { "id": "scn-port", "name": "Port Disruption", "baseGap": 12, "basePrice": 7, "baseRisk": 49, "dataType": "simulated" }
+]

@@ -1,0 +1,9 @@
+{
+  "lastGeopoliticalUpdate": "2026-08-21T08:00:00Z",
+  "geopoliticalStatus": "mock",
+  "usingFallback": false,
+  "aiStatus": "unavailable",
+  "totalEvents": 4,
+  "criticalEvents": 1,
+  "highEvents": 2
+}

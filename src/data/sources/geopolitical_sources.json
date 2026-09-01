@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "refreshMinutes": 60,
+  "cacheMinutes": 30,
+  "maxResultsPerQuery": 15,
+  "defaultTimeWindowHours": 24,
+  "fallbackTimeWindowHours": 72,
+  "rawRetentionDays": 7,
+  "mockMode": true,
+  "sources": [
+    {
+      "id": "gdelt",
+      "name": "GDELT DOC 2.0",
+      "type": "news_search",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "enabled": true,
+      "priority": "high",
+      "tier": 3,
+      "refreshMinutes": 60
+    },
+    {
+      "id": "eia",
+      "name": "U.S. Energy Information Administration",
+      "type": "publication",
+      "url": "https://www.eia.gov/",
+      "enabled": true,
+      "priority": "high",
+      "tier": 1,
+      "refreshMinutes": 60
+    },
+    {
+      "id": "iea",
+      "name": "International Energy Agency",
+      "type": "publication",
+      "url": "https://www.iea.org/",
+      "enabled": true,
+      "priority": "high",
+      "tier": 2,
+      "refreshMinutes": 60
+    },
+    {
+      "id": "opec",
+      "name": "OPEC",
+      "type": "publication",
+      "url": "https://www.opec.org/",
+      "enabled": true,
+      "priority": "medium",
+      "tier": 2,
+      "refreshMinutes": 60
+    },
+    {
+      "id": "ppac",
+      "name": "Petroleum Planning & Analysis Cell",
+      "type": "publication",
+      "url": "https://ppac.gov.in/",
+      "enabled": true,
+      "priority": "high",
+      "tier": 1,
+      "refreshMinutes": 60
+    }
+  ],
+  "queries": [
+    {
+      "id": "q-hormuz",
+      "label": "Strait of Hormuz",
+      "keywords": ["Strait of Hormuz", "Hormuz tanker", "Hormuz shipping", "Persian Gulf oil"],
+      "regions": ["Strait of Hormuz", "Persian Gulf"],
+      "category": "GEOPOLITICAL"
+    },
+    {
+      "id": "q-redsea",
+      "label": "Red Sea / Bab el-Mandeb",
+      "keywords": ["Red Sea oil", "Red Sea tanker", "Bab el-Mandeb", "Suez oil shipping"],
+      "regions": ["Red Sea", "Bab el-Mandeb", "Suez"],
+      "category": "SHIPPING"
+    },
+    {
+      "id": "q-iran-sanctions",
+      "label": "Iran oil sanctions",
+      "keywords": ["Iran oil sanctions", "Iran crude export sanctions"],
+      "regions": ["Persian Gulf"],
+      "category": "SANCTIONS"
+    },
+    {
+      "id": "q-russia-sanctions",
+      "label": "Russia oil sanctions",
+      "keywords": ["Russia oil sanctions", "Russia crude export sanctions"],
+      "regions": ["Russia-Europe"],
+      "category": "SANCTIONS"
+    },
+    {
+      "id": "q-supplier-disruption",
+      "label": "Major oil supplier disruptions",
+      "keywords": ["Saudi Arabia oil", "UAE oil", "Iraq oil", "Russia crude exports", "Nigeria oil exports", "US crude exports"],
+      "regions": ["Global"],
+      "category": "SUPPLY"
+    },
+    {
+      "id": "q-infrastructure",
+      "label": "Oil refinery / terminal disruption",
+      "keywords": ["oil refinery disruption", "oil terminal disruption", "pipeline disruption", "port closure oil"],
+      "regions": ["Global"],
+      "category": "INFRASTRUCTURE"
+    },
+    {
+      "id": "q-shipping",
+      "label": "Major shipping disruption",
+      "keywords": ["oil tanker attack", "crude shipping disruption", "VLCC hijack"],
+      "regions": ["Global"],
+      "category": "SHIPPING"
+    },
+    {
+      "id": "q-opec-policy",
+      "label": "OPEC production policy",
+      "keywords": ["OPEC production cut", "OPEC output adjustment", "OPEC+ supply"],
+      "regions": ["Global"],
+      "category": "POLICY"
+    }
+  ],
+  "relevanceKeywords": [
+    "crude oil", "petroleum", "refinery", "tanker", "shipping", "sanctions",
+    "export", "import", "pipeline", "port", "chokepoint", "Hormuz", "Red Sea",
+    "Bab el-Mandeb", "Suez", "OPEC", "supply disruption", "crude", "barrel",
+    "oil flow", "oil transit", "oil route", "oil blockade", "embargo"
+  ],
+  "sourceTiers": {
+    "1": "Official government/energy agencies (EIA, PPAC, ISPRL)",
+    "2": "International energy organizations (IEA, OPEC, UNCTAD)",
+    "3": "Major reputable news organizations (Reuters, Bloomberg, AP)",
+    "4": "Other monitored sources"
+  },
+  "impactWeights": {
+    "supplyDisruption": 30,
+    "majorChokepoint": 25,
+    "sanctionsCrudeExports": 20,
+    "physicalInfrastructure": 25,
+    "shippingDisruption": 20,
+    "majorSupplier": 15,
+    "directIndiaExposure": 20,
+    "minorMention": -20
+  },
+  "decaySchedule": {
+    "0-24h": 1.0,
+    "24-48h": 0.75,
+    "48-72h": 0.5,
+    "72h+": 0.25
+  },
+  "aiThreshold": {
+    "minImpactScore": 60,
+    "triggerSeverities": ["HIGH", "CRITICAL"],
+    "triggerRegions": ["Strait of Hormuz", "Red Sea", "Bab el-Mandeb"]
+  },
+  "confidenceRules": {
+    "singleSource": 50,
+    "twoIndependentSources": 70,
+    "threePlusSources": 85,
+    "tier1Bonus": 10,
+    "maxConfidence": 95
+  }
+}
